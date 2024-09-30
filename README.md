@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/77277ead-a400-4882-894f-b0a4fbd4be94
 # GenAI-based RAG Application
 - Develop a real-time or static RAG-based LLM application completely using Pathway LLM App templates or Pathway with Llamaindex / Pathway with Langchain
 - This demo shows how to create a RAG application using Pathway that provides always up-to-date knowledge to your LLM without the need for a separate ETL
@@ -48,7 +46,7 @@ https://github.com/user-attachments/assets/77277ead-a400-4882-894f-b0a4fbd4be94
                   -Headers @{ "accept"="/"; "Content-Type"="application/json" } `
                   -Body '{}'
   
-Invoke-RestMethod -Method POST `
+- Invoke-RestMethod -Method POST `
   -Uri 'http://localhost:8000/v1/pw_ai_answer' `
   -Headers @{ "accept"="/"; "Content-Type"="application/json" } `
   -Body '{"prompt": "What is Sanjay Singh CPI?"}'
